@@ -1,0 +1,23 @@
+[ 
+      "<h2>Se connecter</h2><br><table><tr><td><label>pseudo</label></td><td><input type='text' name='pseudo' id='pseudo'></td></tr><tr><td><label>Mot de passe</label></td><td><input type='password' name='mdp' id='mdp'></td></tr><tr><td></td><td align='right'><input type='button' id='connexion' value='Connexion'></td></tr><tr></tr><tr><td><label>Je m'inscris</label></td><td align='right'><input type='button' id='enregistrement' name='enregistrement' value='Créer un compte'></td></tr></table>",
+
+      "<h2>Créer nouveau compte</h2><br><table><tr><td><label for=\"nom\">Nom</label></td><td><input type=\"text\" name=\"nom\" id='nom'></td></tr><tr><td><label for=\"prenom\">Prenom</label></td><td><input type=\"text\" name=\"prenom\" id='prenom'></td></tr><tr><td><label for=\"pseudo\">Pseudo</label></td><td><input type=\"text\" name=\"pseudo\" id='pseudo'></td></tr><tr><td><label for=\"mdp\">Mot de passe</label></td><td><input type=\"password\" name=\"mdp\" id='mdp'></td></tr><tr><td><label for=\"mdp1\">Confirmez mot de passe</label></td><td><input type=\"password\" name=\"mdp1\" id='mdp1'></td></tr><tr><td></td><td><input type=\"button\" id=\"créer\" name=\"creer\" value=\"Créer\"></td></tr></table>",
+
+      "<input type='button' id='deco' value='Deconnexion'>",
+
+      "<a href='#' id='affiche_emprunt'>Me louer !</a>",
+
+      
+      "<center><p>Trouver les stations les plus proches (map: 1000x800)</p><div id='loc1'><input type='text' id='positionX' class='reset' name='maPosition' placeholder='position actuelle X'><br><input type='text' id='positionY' class='reset' name='maPosition' placeholder='position actuelle Y'></div><br><div id='loc2'><input type='text' id='destinationX' class='reset' name='maDestination' placeholder='destination X'><br><input type='text' id='destinationY' class='reset' name='maDestination' placeholder='destination Y'></div><br><input type='reset' id='reset' value='reset'><input type='button' id='btn' value='ok'></center>",
+
+      "<div class='reserv_borne'><p class='reponse_station'></p><br><p class='borne_dispo'>Selectionner votre borne d'emprunt parmi les choix disponibles : &ensp; <select class='choix_station_emprunt'></select></p><p class='borne_dispo'>Selectionner votre borne de dépôt parmi les choix disponibles : &emsp;&ensp; <select class='choix_station_depot'></select> ;&emsp; <input type='button' value='Valider' id='selection'></div>",
+
+      "<div class='form_cb' align='center'><table><tr><td><label>Entrez votre N° de Carte Bleue</label></td></tr><tr><td align='right'><input type='text' id='cb' name='cb' placeholder='N° CB'></td></tr><tr><td align='right'><input type='button' id='valid_cb' name='valid_cb' value='Valider'></td></tr></table><br><p class='code_resa'></p></div>",
+
+      ""
+      
+        
+
+      
+]
+

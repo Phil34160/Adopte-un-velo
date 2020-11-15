@@ -1,0 +1,107 @@
+html, body{
+    margin: auto;
+    background-image: url("../img/header2.jpg");
+    min-height: 100vh;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 2fr auto 2fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-gap:1%;
+    height: 100vh;
+}
+header img{
+    max-height: 40px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    background-color: #b292bd !important;
+    box-shadow: 0 2px 2px #f0c492, 0 2px 2px #f0c492,
+                0 4px 3px #ecbd87, 0 4px 3px #ecbd87,
+                0 6px 5px #ecac63, 0 6px 5px #ecac63;
+    transition: 3s;
+}
+header:hover {
+    background-color: #ecbd87 !important;
+    box-shadow: 0 2px 2px #b19db8, 0 2px 2px #b19db8,
+                0 4px 3px #b292bd, 0 4px 3px #b292bd,
+                0 6px 5px #b87ecc, 0 6px 5px #b87ecc;
+}
+
+header .header{
+    /* text-shadow: 0.5px -3px 2px #bf80ff,
+                 0.5px 3px 2px #f5ce63; */
+    /* position: absolute;
+    margin-top: 1em; */
+    text-decoration: none;
+    font-style: italic;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.slogan{
+    grid-column: 3/4;
+    grid-row: 3;
+    align-self: end;
+    justify-self: end;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: blanchedalmond;
+}
+main {
+    grid-column: 1 span 2;
+    grid-row: 2 span 4;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+main .ticket{
+    border: 1px solid blanchedalmond;
+    box-shadow: 3px 3px 5px blanchedalmond;
+    border-radius: 9px;
+}
+main #valider_ticket{
+    border-radius:9px;
+}
+.main {
+    grid-column: 2 span 3;
+    grid-row: 2 span 4;
+    /* justify-self: start;
+    align-self: start; */
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    color: blanchedalmond;
+    font-size: 18px;
+}
+#créer, #connexion, #enregistrement{
+    
+    color:#903eac;
+}
+header #deco{
+    margin-left: 65em;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+#affiche_emprunt {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+em{
+    color: red;
+    font-weight: bolder;
+}
+
